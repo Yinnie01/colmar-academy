@@ -1,0 +1,417 @@
+/* 
+================================================
+Typography
+=================================================
+*/
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    color: black;
+    opacity: 0.75;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: black;
+    opacity: 0.75;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: black;
+    opacity: 0.65;
+}
+
+p {
+    font-family: Roboto;
+    /* font-weight: 500; */
+    color: black;
+    opacity: 0.7;
+}
+
+/* 
+================================================
+Navigation bar with logo
+=================================================
+*/
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    margin-left: 1.5rem;
+}
+
+.logo img {
+    height: 2.25rem;
+    width: auto;
+}
+
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 4rem;
+    align-items: center;
+    z-index: 20;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+.navbar li {
+    padding-right: 1rem;
+    font-family: Rubik;
+    color: black;
+    opacity: 0.75;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-family: Rubik;
+}
+
+.text-start {
+    color: black;
+    font-weight: 500;
+    opacity: 0.75;
+}
+
+.text-end {
+    color: rgb(195, 195, 195);
+    font-weight: 400;
+}
+
+/* 
+================================================
+Header
+=================================================
+*/
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    height: 42rem;
+    width: 100%;
+    background-color: rgb(202, 202, 202);
+}
+
+.banner {
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    height: 100%;
+    width: 60%;
+    margin-left: 1.5rem;
+}
+
+header img {
+    width: 100%;
+}
+
+.header-hero {
+    margin-left: 2.5rem;
+    width: 30%;
+}
+
+header button {
+    color: white;
+    font-family: Rubik;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+/* 
+================================================
+Second Section
+=================================================
+*/
+
+.middle-section {
+    display: flex;
+    height: 42rem;
+    width: 100%;
+    /* border: 5px solid greenyellow; */
+}
+
+.first-part {
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* height: 100%; */
+    padding: 2.5rem 1.5rem;
+    /* border: 2px solid red; */
+    /* margin-bottom: 2rem; */
+}
+
+.lead-img {
+    height: 65%;
+    /* border: 2px solid orchid; */
+}
+
+.lead-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.first-part h2 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    /* border: 2px solid saddlebrown; */
+    margin-bottom: 0;
+}
+
+.middle-section blockquote {
+    /* border: 2px solid green; */
+    font-family: Roboto;
+    line-height: 1.5rem;
+    font-style: italic;
+    word-spacing: 0.25rem;
+    letter-spacing: 0.125rem;
+}
+
+.quote-author {
+    /* padding-bottom: 2rem;
+    padding-bottom: 2rem; */
+    font-family: Roboto;
+    /* border: 2px solid purple; */
+    padding-top: 1.5rem;
+}
+
+.second-part {
+    width: 40%;
+    /* height: 100%; */
+    padding: 2.5rem 1.5rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    border: 0.125rem solid rgb(202, 202, 202);
+    height: 32%;
+    display: flex;
+}
+
+.col-1-3 {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    /* border: 2px solid brown; */
+}
+
+.card-img {
+    padding: 1rem;
+}
+
+.card-img img {
+    /* padding: 1rem 1rem; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.col-2-3 {
+    /* border: 2px solid gold; */
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    line-height: 1.5rem;
+}
+
+
+.text-link {
+    color: rgb(0, 140, 255);
+}
+
+.guest {
+    background-color: rgb(202, 202, 202);
+}
+
+/* 
+================================================
+Third Section
+=================================================
+*/
+.third-section {
+    display: flex;
+    width: 100%;
+    /* border: 5px solid greenyellow; */
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(227, 227, 227);
+}
+
+.card-rows {
+    display: flex;
+    /* border: 5px solid gray; */
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+    justify-content: space-between;
+}
+
+.course-card {
+    width: 31%;
+    background-color: white;
+    /* border: 2px solid peru; */
+    /* height: 100%; */
+}
+
+.course-card h3 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.course-card p {
+    line-height: 1.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    width: 90%;
+}
+
+.lead-text {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-top: 2rem;
+    position: sticky;
+    top: 4rem;
+    /* background-color: white; */
+    z-index: 10;
+    width: auto;
+    background-color: rgb(227, 227, 227)
+}
+
+.first-row {
+    margin-bottom: 1rem;
+    /* padding-bottom: 1rem; */
+    /* border: 5px solid gray; */
+}
+
+.card-rows:last-of-type {
+    margin-bottom: 4rem;
+    /* border: 5px solid red; */
+}
+
+.course-card-img {
+    height: 55%;
+    /* border: 4px solid red; */ 
+}
+
+.course-card-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* 
+================================================
+Fourth Section
+=================================================
+*/
+
+.lead-text-2 {
+       /* border: 2px solid red; */
+       text-align: center;
+       padding-top: 2rem;
+       position: sticky;
+       top: 4rem;
+       background-color: white;
+       z-index: 10;
+       width: auto;
+}
+
+.first-part-2{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 1.5rem;
+    /* border: 2px solid red; */
+}
+
+.first-part-2 h3 {
+    padding-top: 1rem;
+}
+
+.first-part-2 video {
+    height: 65%;
+}
+
+.second-part-2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 1.5rem;
+    /* border: 2px solid red; */
+}
+
+.second-part-2 article {
+    display: flex;
+}
+
+.second-part-2 article img {
+    width: 35%;
+    object-fit: cover;
+}
+
+.second-part-2 article {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    /* border: 2px solid green; */
+}
+
+.second-part-2 .side-text {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* 
+================================================
+Fourth Section
+=================================================
+*/
+ footer {
+    font-family: Roboto;
+    font-size: 0.8rem;
+    /* color: black;
+    opacity: 0.7; */
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    /* border: 2px solid salmon; */
+    padding:0 1rem;
+    border-top: 2px solid rgb(227, 227, 227);
+ }
+
+ footer span:first-of-type {
+    padding-right: 1rem;
+ }
