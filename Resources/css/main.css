@@ -346,6 +346,7 @@ Fourth Section
        background-color: white;
        z-index: 10;
        width: auto;
+       /* border: 2px solid red; */
 }
 
 .first-part-2{
@@ -408,7 +409,7 @@ Fourth Section
     justify-content: space-between;
     height: 3rem;
     /* border: 2px solid salmon; */
-    padding:0 1rem;
+    padding:0.5rem 1rem;
     border-top: 2px solid rgb(227, 227, 227);
  }
 
