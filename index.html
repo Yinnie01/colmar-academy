@@ -12,29 +12,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="./Resources/images/ic-logo.svg" alt="logo">
-            <span class="logo-text text-start">COLMAR</span><span class="logo-text text-end">ACADEMY</span>
-        </div>
-        <ul>
-            <li>On campus</li>
-            <li>Online</li>
-            <li>Or companies</li>
-            <li>Sign in</li>
-        </ul>
-    </nav>
-    <header>
-        <section class="banner">
-            <img src="./Resources/images/banner.jpg" alt="banner">
-        </section>
-        <!-- <img src="./Resources/images/banner.jpg" alt="banner"> -->
-        <section class="header-hero">
-            <h1>Learn something new everyday</h1>
-            <h3>When you stop learning, <br> you start dying.</h3>
-            <button>Start here</button>
-        </section>
-    </header>
+    <div class="mobile-screen">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./Resources/images/ic-logo.svg" alt="logo">
+                <span class="logo-text text-start">COLMAR</span><span class="logo-text text-end">ACADEMY</span>
+                <img class="mobile-icons" src="./Resources/images/ic-on-campus.svg" alt="campus">
+                <img class="mobile-icons" src="./Resources/images/ic-online.svg" alt="online">
+                <img class="mobile-icons" src="./Resources/images/ic-login.svg" alt="login">
+            </div>
+            <ul>
+                <li>On campus</li>
+                <li>Online</li>
+                <li>Or companies</li>
+                <li>Sign in</li>
+            </ul>
+        </nav>
+        <header>
+            <section class="banner">
+                <img src="./Resources/images/banner.jpg" alt="banner">
+            </section>
+            <!-- <img src="./Resources/images/banner.jpg" alt="banner"> -->
+            <section class="header-hero">
+                <h1>Learn something new everyday</h1>
+                <h3>When you stop learning, <br> you start dying.</h3>
+                <button>Start here</button>
+            </section>
+        </header>
+    </div>
     <section class="middle-section">
         <section class="first-part">
             <div class="lead-img">
@@ -77,8 +82,8 @@
                 </div>
             </div>
             <div class="cards">
-                <div class="col-1-3">
-                    <div class="card-img guest">
+                <div class="col-1-3 guest">
+                    <div class="card-img">
                         <img src="./Resources/images/information-guest-lecture.jpg" alt="info">
                     </div>
                     <!-- <img src="./Resources/images/information-guest-lecture.jpg" alt="info"> -->
@@ -100,7 +105,7 @@
                 <div class="course-card-img">
                     <img src="./Resources/images/course-software.jpg" alt="a computer device">
                 </div>
-                <div>
+                <div class="course-card-text">
                     <h3>Software engineering</h3>
                     <p>COURSES</p>
                     <p>Web Development, Mobile Development, iOT, APIs</p>
@@ -110,7 +115,7 @@
                 <div class="course-card-img">
                     <img src="./Resources/images/course-computer-art.jpg" alt="a computer device">
                 </div>
-                <div>
+                <div class="course-card-text">
                     <h3>Computer Art</h3>
                     <p>COURSES</p>
                     <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
@@ -120,7 +125,7 @@
                 <div class="course-card-img">
                     <img src="./Resources/images/course-design.jpg" alt="a boy">
                 </div>
-                <div>
+                <div class="course-card-text">
                     <h3>Design</h3>
                     <p>COURSES</p>
                     <p>User Experience Design, User Research, Visual Design</p>
@@ -132,7 +137,7 @@
                 <div class="course-card-img">
                     <img src="./Resources/images/course-data.jpg" alt="a computer device">
                 </div>
-                <div>
+                <div class="course-card-text">
                     <h3>Data</h3>
                     <p>COURSES</p>
                     <p>Data Science, Big Data, SQL, Data Visualization</p>
@@ -142,7 +147,7 @@
                 <div class="course-card-img">
                     <img src="./Resources/images/course-business.jpg" alt="a chessboard">
                 </div>
-                <div>
+                <div class="course-card-text">
                     <h3>Business</h3>
                     <p>COURSES</p>
                     <p>Product Development, Business Development, Startup</p>
@@ -152,7 +157,7 @@
                 <div class="course-card-img">
                     <img src="./Resources/images/course-marketing.jpg" alt="a wristwatch">
                 </div>
-                <div>
+                <div class="course-card-text">
                     <h3>Marketing</h3>
                     <p>COURSES</p>
                     <p>Analytics, Content Marketing, Mobile Marketing</p>
