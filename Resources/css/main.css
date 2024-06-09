@@ -179,9 +179,10 @@ header button {
 @media only screen and (max-width: 480px) {
     header {
         width: 100vw;
-        height: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
+        margin-top: 0;
     }
     .banner {
         height: 40%;
@@ -191,7 +192,8 @@ header button {
     }
 
     .banner img {
-        height: 100%;
+        margin-top: 4rem;
+        height: 80%;
         width: 100%;
         object-fit: cover;
         margin-left: 0;
@@ -200,12 +202,12 @@ header button {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 100%;    
         margin: 0px;
-        height: 60%;
+        height: 100%;
     }
     .header-hero h1 {
-        padding: 2rem 1rem;
+        padding: 1.5rem 1rem;
         line-height: 4rem;
         margin: 0;
     }
@@ -216,7 +218,7 @@ header button {
         margin-bottom: 1.5rem;
     }
     header button {
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-bottom: 2rem;
         padding-left: 4rem;
         padding-right: 4rem;
@@ -304,7 +306,6 @@ Second Section
     align-items: center;
     width: 35%;
     height: 100%;
-    /* border: 2px solid brown; */
 }
 
 .card-img {
@@ -343,32 +344,67 @@ Second Section
         height: 100vh;
         display: flex;
         flex-direction: column;
+        /* margin: -4rem; */
     }
     .first-part {
         display: none;
     }
     .second-part {
-        width: 100vw;
-        padding: 0;
-        margin-top: 4rem;
-        height: 100vh;
+        width: auto;
+        padding: 0 0;   
+        height: 100%;
     }
     .cards {
-        height: 33%;
+        height: 32%;
+        width: 100vw;
         display: flex;
         flex-direction: column;
+        border: 0;
     }
-    .col-1-3 {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 65%;
-        /* align-items: center;
-        width: 35%;
-        height: 100%;
-        border: 2px solid brown; */
+    .cards:first-of-type {
+        margin-top: 1rem;
     }
 
+    .cards:last-of-type {
+        margin-bottom: 2rem;
+    }
+
+    .mobile-3-5 {
+        height: 55%;
+        width: 100vw;
+    }
+    .mobile-2-5 h3, .mobile-2-5 p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .mobile-2-5 {
+        width: auto;
+        margin-top: 1rem;
+        padding-right: 0;
+        padding-left: 1rem;
+        /* margin-top: 1.5rem; */
+    }
+
+    .mobile-3-5 .card-img {
+        margin-top: 1rem;
+        padding: 0.5rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    .guest {
+        margin-top: 0.5rem;
+        background-color: rgba(240, 248, 255,0);
+    }
+
+    .guest .card-img {
+        margin-top: 0.5rem;
+        padding-bottom: 0;
+        margin-bottom: 1rem;
+    }
+
+}
 /* 
 ================================================
 Third Section
@@ -382,7 +418,6 @@ Third Section
     justify-content: center;
     background-color:rgb(227, 227, 227);
     height: max-content;
-    border: 2px solid saddlebrown;
 }
 
 .card-rows {
@@ -397,7 +432,7 @@ Third Section
     width: 31%;
     height: auto;
     background-color: white;
-    border: 2px solid peru;
+    /* border: 2px solid peru; */
     /* height: 100%; */
 }
 
@@ -447,7 +482,56 @@ Third Section
     object-fit: cover;
 }
 
+@media only screen and (max-width: 480px) {
+    .third-section {
+        margin-top: 1rem;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: rgba(227, 227, 227,0);
+    }
+    .lead-text {
+        /* border: 2px solid greenyellow; */
+        border-top: 1px solid rgb(227, 227, 227);
+        text-align: center;
+        padding-top: 1rem;
+        position: static;
+        width: auto;
+        background-color: rgba(227, 227, 227,0)
+    }
+    .lead-text h2 {
+        margin-bottom: 1rem;
+    }
+    .mobile-third-section {
+        display: none;
+    }
+    .card-rows {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .first-row {
+        margin-bottom: 0;
+    }
+    .card-rows:last-of-type {
+        margin-bottom: 0;
+    }
+    .course-card {
+        width: auto;
+        background-color: rgb(227, 227, 227);
+        margin: 0.25rem 2rem;
+    }
+    .course-card h3 {
+        padding: 2rem 1rem;
+        margin: 0;
+    }
 
+    .mobile-last-card {
+        margin-bottom: 2rem;
+    }
+}
 /* 
 ================================================
 Fourth Section
@@ -515,6 +599,41 @@ Fourth Section
     flex-direction: column;
     justify-content: center;
 }
+
+@media only screen and (max-width: 480px) {
+    .second-part-2 {
+        display: none;
+    }
+
+    .first-part-2 {
+        display: flex;
+        justify-content: flex-start;
+        width: auto;
+        height: 25rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-left: 0;
+    }
+    .lead-text-2{
+        padding-bottom: 0;
+    }
+
+    .lead-text-2 h2 {
+        margin-bottom: 0;
+    }
+
+    .first-part-2 video {
+        padding-left: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 2.5rem;
+    }
+    .middle-section {
+        height: auto;
+    }
+}
 /* 
 ================================================
 Fourth Section
@@ -536,4 +655,3 @@ Fourth Section
  footer span:first-of-type {
     padding-right: 1rem;
  }
-
